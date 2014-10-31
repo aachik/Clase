@@ -4,7 +4,7 @@ diccionario = {'hola': 'saludo generalente usado ',
                 'morsa':'animal mamifero que es bigoton con cola'
                }
 
-    
+print ("hola") 
 class Orden(Envio, Pedido):
             
     def __init__(self,nombre,icono):
@@ -22,7 +22,9 @@ class Orden(Envio, Pedido):
             global nombre
     def Pagar(self):
         print(nombre)
+##ejemplo
 
+        ##lo que sea
 
 class Pedido(Orden):
 
